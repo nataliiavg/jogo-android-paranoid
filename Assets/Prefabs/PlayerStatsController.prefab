@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5348025754133830896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4360263797521306239}
+  - component: {fileID: 1404810863}
+  m_Layer: 0
+  m_Name: PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4360263797521306239
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348025754133830896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1404810863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348025754133830896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83d386e497f319f4797a22216c7eaa19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xpMultiply: 1
+  xpFirstLevel: 100
+  difficultFactor: 1.5
+  baseInfoChars:
+  - baseInfo:
+      startLife: 50
+      startMana: 15
+      strenght: 30
+      inteligence: 10
+      agility: 20
+      baseDefense: 45
+      baseAttack: 35
+      baseRange: 3
+    typeChar: 0
+  - baseInfo:
+      startLife: 40
+      startMana: 60
+      strenght: 10
+      inteligence: 35
+      agility: 15
+      baseDefense: 25
+      baseAttack: 15
+      baseRange: 8
+    typeChar: 1
+  - baseInfo:
+      startLife: 45
+      startMana: 25
+      strenght: 20
+      inteligence: 20
+      agility: 40
+      baseDefense: 35
+      baseAttack: 25
+      baseRange: 7
+    typeChar: 2

@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 747c641d38d86b8408b76ca3be5babc5
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -1335108433206371217
+    second: attackMelee1
+  - first:
+      74: 2474427243345560454
+    second: attackMelee2
+  - first:
+      74: -6193402856570930326
+    second: attackMelee3
+  - first:
+      74: 9119772593569947337
+    second: dieAnimation
+  - first:
+      74: -8355705571669869141
+    second: hurtAnimation
+  - first:
+      74: -8411179000263392090
+    second: IdlleAnimation
+  - first:
+      74: 4835261976078044113
+    second: runAnimation
+  - first:
+      74: -1212227874037625581
+    second: walkAnimation
+  - first:
+      74: 5233880260418479068
+    second: sideWalkAnimation
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__bake
+    second: {fileID: 2100000, guid: c30b32be35ca54f4ea7c664c10856902, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: attackMelee1
+      takeName: attackMelee1
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackMelee2
+      takeName: attackMelee2
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attackMelee3
+      takeName: attackMelee3
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: IdlleAnimation
+      takeName: IdlleAnimation
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runAnimation
+      takeName: runAnimation
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sideWalkAnimation
+      takeName: sideWalkAnimation
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walkAnimation
+      takeName: walkAnimation
+      internalID: 0
+      firstFrame: -1
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Char(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MeshChar
+      parentName: Char(Clone)
+      position: {x: 0.033516914, y: -0.10733467, z: 1.9809725}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bones
+      parentName: Char(Clone)
+      position: {x: -0.03896842, y: -0.80946666, z: 0.82387555}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Spine
+      parentName: Bones
+      position: {x: 0.041377697, y: -0.00000013411045, z: 2.119967}
+      rotation: {x: 0.7026827, y: -0.699838, z: -0.09077468, w: -0.09068554}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: Spine
+      position: {x: 0.13429245, y: 0.005364185, z: -0.05917613}
+      rotation: {x: -0.21059762, y: 0.0007934941, z: -0.9775692, w: 0.002526074}
+      scale: {x: 1, y: 1.0000005, z: 0.9999999}
+    - name: UperArmL
+      parentName: Spine
+      position: {x: -0.0387709, y: -0.5607004, z: -0.08550806}
+      rotation: {x: -0.24307877, y: 0.088568985, z: -0.70169836, w: -0.6638431}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: BottomArmL
+      parentName: UperArmL
+      position: {x: -0.41454947, y: 0.000000070780516, z: 0.000000007450581}
+      rotation: {x: -0.6331065, y: -0.19393708, z: 0.27902374, w: -0.6954929}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: UpperHandL
+      parentName: BottomArmL
+      position: {x: -0.49809676, y: 0.000000029802322, z: 0.000000052154064}
+      rotation: {x: 0.095360145, y: -0.03491703, z: 0.096717745, w: 0.9901176}
+      scale: {x: 1.0000004, y: 0.9999996, z: 1.0000001}
+    - name: FingersL
+      parentName: UpperHandL
+      position: {x: -0.37086946, y: -0.000000059604645, z: 0.000000074505806}
+      rotation: {x: -0.010970168, y: -0.08350724, z: 0.063703515, w: 0.9944084}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: FingerL
+      parentName: BottomArmL
+      position: {x: -0.574241, y: 0.10643342, z: -0.0013996437}
+      rotation: {x: -0.06369575, y: -0.036526363, z: -0.56320226, w: 0.8230504}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: UperArmR
+      parentName: Spine
+      position: {x: -0.054649513, y: 0.5751194, z: -0.11028223}
+      rotation: {x: -0.43284136, y: -0.309263, z: -0.5619818, w: 0.63338876}
+      scale: {x: 1, y: 0.99999976, z: 0.99999976}
+    - name: BottomArmR
+      parentName: UperArmR
+      position: {x: -0.41105658, y: 0.000000067055225, z: -0.000000007450581}
+      rotation: {x: -0.6649828, y: 0.2453141, z: 0.29710555, w: 0.63980246}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: UpperHandR
+      parentName: BottomArmR
+      position: {x: -0.4749057, y: 0.000000037252903, z: 0.00000009126961}
+      rotation: {x: -0.1031289, y: -0.018877618, z: 0.13387771, w: 0.9854364}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: FingersR
+      parentName: UpperHandR
+      position: {x: -0.35449138, y: 0.00000008940697, z: -0.00000004656613}
+      rotation: {x: 0.03635203, y: 0.056281496, z: -0.07968527, w: 0.99456584}
+      scale: {x: 1, y: 0.9999998, z: 1.0000005}
+    - name: FingerR
+      parentName: BottomArmR
+      position: {x: -0.5439974, y: -0.09846131, z: -0.06745292}
+      rotation: {x: 0.015696973, y: -0.0111135915, z: 0.5366614, w: 0.8435786}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000001}
+    - name: UperLegL
+      parentName: Spine
+      position: {x: -0.8333518, y: -0.23842873, z: 0.048629805}
+      rotation: {x: -0.09705714, y: 0.7063624, z: 0.18088125, w: 0.67743194}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: BottomLegL
+      parentName: UperLegL
+      position: {x: -0.68199205, y: 0.000000074505806, z: 0.000000029802322}
+      rotation: {x: 0.05101979, y: 0.11058405, z: 0.040976144, w: -0.9917102}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000008}
+    - name: FootL
+      parentName: BottomLegL
+      position: {x: -0.70657754, y: 0.000000015832484, z: 0.0000000607688}
+      rotation: {x: -0.25269598, y: -0.232683, z: -0.0012181805, w: -0.9391496}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: UperLegR
+      parentName: Spine
+      position: {x: -0.844594, y: 0.2365168, z: 0.049844183}
+      rotation: {x: -0.052864444, y: 0.7280352, z: -0.013690497, w: 0.6833613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: BottomLegR
+      parentName: UperLegR
+      position: {x: -0.7073027, y: 0.000000014901161, z: 0}
+      rotation: {x: 0.23447514, y: -0.116762996, z: 0.0013337918, w: 0.9650835}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999999}
+    - name: FootR
+      parentName: BottomLegR
+      position: {x: -0.6884951, y: 0.000000035390258, z: 0.00000002188608}
+      rotation: {x: -0.19723631, y: 0.21986288, z: 0.02461629, w: 0.9550666}
+      scale: {x: 1, y: 0.9999995, z: 0.9999999}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

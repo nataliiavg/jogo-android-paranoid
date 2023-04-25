@@ -1,0 +1,2 @@
+C:\Users\natal\jogoAndroideParanoid\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\natal\jogoAndroideParanoid\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
